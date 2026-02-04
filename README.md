@@ -44,7 +44,7 @@ This lab showcases practical techniques for:
 ## 🚀 How to Run
 ```bash
 pip install -r requirements.txt
-python week3_lab.py
+python conversational_ai_week3.ipynb
 ```
 
 ## 📚 Course Context
