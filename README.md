@@ -7,7 +7,6 @@ It demonstrates how AI can provide accurate time updates, act as a university in
 > 📝 **Note**: This is the **third lab assignment** for **COM6104 – Topics in Data Science and Artificial Intelligence**.  
 It documents hands-on experimentation with conversational design, prompt engineering, and retrieval-based AI.
 
----
 
 ## 🎯 Motivation
 Modern AI systems must handle **real-time information**, **domain-specific knowledge**, and **retrieval-based queries**.  
@@ -16,7 +15,6 @@ This lab showcases practical techniques for:
 - Embedding cached knowledge for efficient responses.
 - Using RAG to answer academic queries with context-aware retrieval.
 
----
 
 ## ⚙️ Exercises Implemented
 - **Exercise 1: Current Time Assistant**  
@@ -33,7 +31,6 @@ This lab showcases practical techniques for:
   Uses embeddings and vector search to retrieve relevant knowledge.  
   Answers student queries with context-aware precision.
 
----
 
 ## 📊 Sample Outputs
 
@@ -43,7 +40,6 @@ This lab showcases practical techniques for:
 | HSU Helper | "When was HSU established?" | *HSU was established in 2010 as Hang Seng Management College and granted university status in 2018.* |
 | RAG Query | "Who teaches COM6104?" | *The lecturer for COM6104 is Dr. WK Wong.* |
 
----
 
 ## 🚀 How to Run
 ```bash
@@ -51,25 +47,15 @@ pip install -r requirements.txt
 python week3_lab.py
 ```
 
----
-
 ## 📚 Course Context
-Completed as part of **COM6104 – Topics in Data Science and Artificial Intelligence** at [Your University Name].
+Completed as part of **COM6104 – Topics in Data Science and Artificial Intelligence** at The Hang Seng University of Hong Kong.
 
----
 
 ## 💡 Reflection
 This lab deepened my understanding of how conversational AI can be enhanced with **dynamic prompts**, **domain-specific knowledge bases**, and **retrieval-augmented generation**.  
 It highlights the importance of combining prompt engineering with structured knowledge to deliver accurate, context-aware responses.
 
----
 
 ## 📚 Acknowledgements
 Parts of this code were adapted from COM6104 lab materials provided by the instructor.  
 This repository is licensed under the **MIT License**, which permits reuse and modification with proper attribution.
-
----
-
-This README mirrors your Week 2 structure: **Overview → Motivation → Exercises → Sample Outputs → How to Run → Context → Reflection → Acknowledgements**.  
-
-Would you like me to also draft a **requirements.txt** for Week 3 (including `ollama`, `requests`, `llama_index`, `beautifulsoup4`) so your repo stays consistent across labs?
